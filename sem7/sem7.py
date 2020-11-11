@@ -7,6 +7,6 @@ def averageMark(marks):
 	for i in myMarks.values():
 		totalMark += i
 
-	return totalMark
+	return totalMark/len(marks)
 
 print(averageMark(myMarks))
