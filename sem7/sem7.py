@@ -1,8 +1,12 @@
 myMarks = {'CSF': 75, 'FunPro': 80, 'WT': 85}
 
-totalMark=0
+def averageMark(marks):
 
-for i in myMarks.values():
-	totalMark += i
+	totalMark=0
 
-print(totalMark/len(myMarks))
+	for i in myMarks.values():
+		totalMark += i
+
+	return totalMark
+
+print(averageMark(myMarks))
