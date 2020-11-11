@@ -1,5 +1,5 @@
 csf = {
-	'cw1-w': 0.4;
+	'cw1-w': 0.4,
 	'cw1-mark': 79,
 	'exam-w': 0.6,
 	'exam-mark': 65
