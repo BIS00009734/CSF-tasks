@@ -4,7 +4,7 @@ def averageMark(marks):
 
 	totalMark=0
 
-	for i in myMarks.values():
+	for i in marks.values():
 		totalMark += i
 
 	return totalMark/len(marks)
